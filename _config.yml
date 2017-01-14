@@ -1,0 +1,30 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing these this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
+title: Compliance & Investigations Blog
+slogan: Vállalati visszaélésekről, kivizsgálásról, megelőzésről
+email: janos.puskas@complianceblog.hu
+description: > # this means to ignore newlines until "baseurl:"
+  Dr. Puskás János vagyok, compliance és belső vizsgálat szakértő. Írásaim jogászok és vállalati döntéshozók számára foglalják össze a munkámban is felmerülő szakmai érdekességeket, a szakterület legújabb fejleményeit, jó gyakorlatokat.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://complianceblog.hu" # the base hostname & protocol for your site
+# github_username:    jekyll
+# instagram_username: jekyllrb
+# twitter_username:   jekyllrb
+
+timezone: Europe/Budapest
+
+# Build settings
+markdown: kramdown

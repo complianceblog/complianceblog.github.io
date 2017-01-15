@@ -3,48 +3,47 @@ layout: default
 ---
 
 <div class="home">
-
-	<ul class="post-list">
-        {% for post in site.posts %}
-            <li>
-                <article>
-                    <header class="post-header">
-                        <div>
-                            <span class="post-meta">{{ post.date | date: "%Y.%m.%d. " }}</span>
-                        </div>
-
-                        <h2>
-                            <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-                        </h2>
-                    </header>
-
-                    <div class="entry-content">
-                        {{ post.content | split:'<!--break-->' | first }}
-                        {% if post.content contains '<!--break-->' %}
-                            <a href="{{ post.url }}">Tovább olvasom...</a>
-                        {% endif %}
+    <ul class="post-list">
+        <!-- This loops through the paginated posts -->
+        {% for post in paginator.posts %}
+        <li>
+            <article>
+                <header class="post-header">
+                    <div>
+                        <span class="post-meta">{{ post.date | date: "%Y.%m.%d. " }}</span>
                     </div>
-                </article>
-            </li>
+
+                    <h2>
+                        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+                    </h2>
+                </header>
+
+                <div class="entry-content">
+                    {{ post.content | split:'<!--break-->' | first }}
+                    {% if post.content contains '<!--break-->' %}
+                        <a href="{{ post.url }}">Tovább olvasom...</a>
+                    {% endif %}
+                </div>
+            </article>
+        </li>
         {% endfor %}
 
-	</ul>
-
-{% if paginator.total_pages > 1 %}
-<ul class="pager main-pager">
-  {% if paginator.previous_page %}
-  <li class="previous">
-    <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&larr; Newer Posts</a>
-  </li>
-  {% endif %}
-  {% if paginator.next_page %}
-  <li class="next">
-    <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Older Posts &rarr;</a>
-  </li>
-  {% endif %}
-</ul>
-{% endif %}
-
+        <!-- Pagination links -->
+        <div class="pagination">
+          {% if paginator.previous_page %}
+            <a href="{{ paginator.previous_page_path }}" class="previous">Előző</a>
+          {% else %}
+            <span class="previous">Előző</span>
+          {% endif %}
+          <span class="page_number ">{{ paginator.page }} / {{ paginator.total_pages }}</span>
+          {% if paginator.next_page %}
+            <a href="{{ paginator.next_page_path }}" class="next">Következő</a>
+          {% else %}
+            <span class="next ">Következő</span>
+          {% endif %}
+        </div>
+    </ul>
+    </div>
 	<p class="rss-subscribe">Feliratkozás <a href="{{ "/feed.xml" | prepend: site.baseurl }}">RSS-en</a></p>
 
 </div>

@@ -6,6 +6,8 @@ date:   2017-01-14
 
 A vállalati compliance rendszer működéséhez elengedhetetlen, hogy a kivizsgálandó esetekről a compliance munkatársak tudomást szerezzenek. A bejelentői felület kialakítása, hatékonyabbá tétele gyakran nehézséget okoz. A compliance vezető egyedül nem tud mindenki által elérhető felületet kialakítani. Számos belső jóváhagyásra, segítségre van szüksége és a felületnek a magyar bejelentővédelmi törvény követelményeit is teljesítenie kell.
 
+<!--break-->
+
 Az első cél hogy az alapos bejelentés bekerüljön a rendszerbe. A vállalatnak így legyen esélye azt kivizsgálni és szükség esetén intézkedni. Tapasztalatom szerint nem a részletek a fontosak, hanem a mindig elérhető bejelentői felület és az hogy arról minden munkatárs tudjon. Sok esetben az anyavállalat eleve meghatározza milyen felületnek kell működnie a magyarországi leányvállalatnál. Ezt sokszor elegendő csak helyi szinten, magyarul is elérhetővé tenni. Ellenőrizni kell, hogy ez a magyar bejelentővédelmi törvénynek is megfelel-e.
 
 A bejelentés különböző csatornái különbözőképpen járulhatnak hozzá a vállalati compliance rendszer hatékony működéséhez. A továbbiakban ezeket tekintjük át.

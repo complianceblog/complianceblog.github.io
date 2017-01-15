@@ -6,6 +6,8 @@ date:   2017-01-15 13:38:01 +0100
 
 A compliance a magyar vállalati szférában is növekvő terület. Egyre több szakember, köztük jogász helyezkedik el compliance pozícióban. A korábbi vállalati jogászok, ügyvédek gyakran szembesülnek azzal új munkakörükben, hogy a vállalat compliance programja kezdetleges vagy ami még rosszabb, csak papíron létezik. Az ebből eredő felelősség viszont az új compliance vezető vállát nyomja az első naptól kezdve, miközben gyakran előfordul az is, hogy a korábban vártnál kevesebb erőforrással kell biztosítani a funkció működését.
 
+<!--break-->
+
 Hogyan teheti rendbe egy új compliance vezető az addig csak papíron létező compliance programot három hónap alatt? A vállalati compliance rendszerek bevezetése során szerzett tapasztalatom szerint már viszonylag kisebb, ám tudatos változtatásokkal is látványos és jelentős fejlődést lehet elérni. A következő néhány lépéssel a compliance vezető hamar túljuthat a kezdeti nehézségeken és elismerést szerezhet a vállalaton belül.
 
 Ha a compliance vezető az egyedüli compliance ember a vállalatnál vagy kevesebb beosztottja van a szükségesnél, akkor különösen érdemes összehívnia egy félhivatalos vállalati compliance munkacsoportot, ahova önkéntes alapon bevonhat egy-egy embert kapcsolódó területekről,  tehát akiknek a munkáját érintik a compliance kockázatok. Ilyen például a HR, a jogi osztály, a kontrolling, az IT, a beszerzés vagy a pénzügy. Ezek az emberek nem válnak compliance munkatársakká, de jó eséllyel támogatni fogják a compliance vezetőt célja elérésében.

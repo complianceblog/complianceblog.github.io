@@ -4,7 +4,11 @@ title:  "FCPA: A korrupciót világszerte tiltó amerikai törvény"
 date:   2017-01-15 13:48:01 +0100
 ---
 
+<!-- In your posts file, put your marker wherever you want to cut off the post for the main blog page -->
+
 A multinacionális vállalatok korrupcióellenes tréningjei és szabályzatai általában foglalkoznak a külföldi korrupciót tiltó amerikai törvénnyel, az FCPA-vel. Sőt az ilyen tréningek és szabályzatok bevezetése nagyrészt éppen az FCPA-nek köszönhető. A törvény megsértése miatt indított amerikai eljárások és az esetenként több százmillió dolláros bírságok ma is a compliance szakma motorjának számítanak. A tíz legsúlyosabb büntetés összességében eléri a 4,4 milliárd dollárt. A továbbiakban az FCPA korrupcióellenes rendelkezéseinek jelentőségét mutatom be.
+
+<!--break-->
 
 E rendelkezések hatálya igen széleskörű, túlterjed az amerikai vállalatokon és személyeken. Az FCPA vonatkozik amerikai tőzsdén jegyzett vállalatokra, ezek vezetőire, alkalmazottaira, ügynökeire. Az amerikai hatóságok eljárhatnak továbbá ha egy korrupciós cselekmény valamilyen módon kapcsolódik az USA-hoz. Elég lehet ehhez amerikai bankszámla használata, egy ottani találkozó, de akár amerikai szervereken történő e-mail levelezés is. A Magyarországon működő multinacionális vállalatok is az FCPA hatálya alá tartozhatnak.
 

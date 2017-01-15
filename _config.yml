@@ -13,6 +13,9 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
+gems:
+  - jekyll-paginate
+
 title: Compliance & Investigations Blog
 slogan: Vállalati visszaélésekről, kivizsgálásról, megelőzésről
 email: janos.puskas@complianceblog.hu
@@ -28,3 +31,6 @@ timezone: Europe/Budapest
 
 # Build settings
 markdown: kramdown
+
+paginate_path: "cikkek/page:num/"
+paginate: 3

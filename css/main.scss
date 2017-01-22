@@ -13,14 +13,14 @@ $font-path-file-name: {{ site.baseurl }}/assets/fonts/$font-name/$font-name;
     font-family: $font-name;
     src: url($font-path-file-name+'.eot'); /* IE9 Compat Modes */
     src: url($font-path-file-name+'.woff') format('woff'), /* Pretty Modern Browsers */
-         url($font-path-file-name+'.ttf')  format('truetype'), /* Safari, Android, iOS */
+         url($font-path-file-name+'.ttf') format('truetype'), /* Safari, Android, iOS */
          url($font-path-file-name+'.svg#font_name') format('svg'); /* Legacy iOS */
 }
 
 
 
 // Our variables
-$base-font-family: "Libre Baskerville", Baskerville, "Book Antiqua", Georgia, Times, serif;
+$base-font-family: "Roboto Slab", serif;
 $base-font-size:   17px;
 $base-font-weight: 400;
 $base-line-height: 2;
@@ -29,12 +29,12 @@ $small-font-size:  $base-font-size * 0.875;
 
 $spacing-unit:     30px;
 
-$brand-color:      #787065;
-$background-color: ghostwhite;
+$brand-color:      #C2C0BF;
+$background-color: gainsboro;
 $text-color:       #363431;
-$title-color:      firebrick;
+$title-color:      #A31F34;
 
-$grey-color:       #a09a92;
+$grey-color:       #3f3f3f;
 $grey-color-light: gainsboro;
 $grey-color-dark:  darken($grey-color, 25%);
 
@@ -69,17 +69,100 @@ $on-laptop:        800px;
 ;
 
 .site-header {
-    background-color: white;
+    background-color: #C2C0BF;
 }
 article {
     background-color: white;
 }
 
+article > .entry-content:first-letter {
+    font-family: "Roboto Slab";
+    color: #3f3f3f;
+}
+
+article > .entry-content:first-line {
+    font-family: "Roboto Slab";
+    color: #3f3f3f;
+}
+
+.post-list .post-header:before {
+    background: whitesmoke;
+    border-color: #faf9f5;
+    box-shadow: 0 0 0 4px #eae9e6;
+}
+.post-header:before {
+    color: grey;
+}
+
+.post-header > div:after {
+      color: grey;
+}
+
+.post-header > div:before {
+      color: grey;
+}
+
+.post-meta {
+    color: #3f3f3f;
+}
+
+h1.post-title {
+    font-family: "Quicksand", sans-serif;
+}
+
+a {
+    color: grey;
+}
 nav {
     h2 {
-        font-size: 0.8em;
+        font-size: 1em;
+        font-family: "Quicksand", sans-serif;
+        color: white;
+    }
+
+    h1 {
+        font-family: "Quicksand", sans-serif;
+    }
+
+    span {
+        color: grey;
+    }
+
+    a {
+        color: grey;
+    }
+
+    img {
+        max-width: 60px;
     }
 }
+
+#post-nav span {
+    color: #3f3f3f;
+}
+
+.small {
+    font-size: 0.7em;
+}
+
+footer {
+    
+    h2 {
+        color: #A31F34;
+    }
+    p, a,li {
+        color: grey;
+    }
+}
+
+a.post-link {
+    font-family: "Quicksand", serif;
+    color: #3f3f3f;
+}
+.site-title {
+    font-family: "Quicksand", sans-serif;
+    font-weight: 700;
+}
 .site-footer {
-    background-color: white;
+    background-color: #C2C0BF;
 }

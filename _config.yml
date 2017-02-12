@@ -20,7 +20,6 @@ title: Compliance & Investigations Blog
 slogan: Vállalati visszaélésekről, kivizsgálásról, megelőzésről
 email: janos.puskas@complianceblog.hu
 description: > # this means to ignore newlines until "baseurl:"
-  Dr. Puskás János vagyok, compliance és belső vizsgálat szakértő. Írásaim jogászok és vállalati döntéshozók számára foglalják össze a munkámban is felmerülő szakmai érdekességeket, a szakterület legújabb fejleményeit, jó gyakorlatokat.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://complianceblog.hu" # the base hostname & protocol for your site
 # github_username:    jekyll

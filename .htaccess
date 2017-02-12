@@ -1,0 +1,4 @@
+Options +FollowSymLinks
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^complianceblog.hu[nc]
+RewriteRule ^(.*)$ http:## www.complianceblog.hu/$1 [r=301,nc]
